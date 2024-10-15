@@ -11,7 +11,7 @@ public class Main {
         List<String> list = new ArrayList<>();
         Collections.addAll(list, "Bonjour", "Hello", "你好", "안녕하세요", "Ole");
 
-        List<String> result = new ArrayList<>();
+        List<String> result;
         result = filterStringsWithO(list);
         System.out.println(result);
     }
