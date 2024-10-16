@@ -4,4 +4,3 @@
 Gradle
 
 ## Revisat per:
-Victoria
