@@ -10,6 +10,7 @@ public class Main {
 
         Collections.addAll(months, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
-        months.forEach(System.out::println);
+        months.stream()
+                .forEach(System.out::println);
     }
 }
